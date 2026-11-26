@@ -1,0 +1,62 @@
+/* Keep the game and its character sheets legible at ordinary browser zoom. */
+.rail-button,.user-button,.map-quest strong,.chat-tabs button,.message-name,
+.message-text,.welcome-card p,.field,.field input,.field textarea,.field select,
+.primary-button,.secondary-button,.help-list,.quest-task,.person-row strong,
+.my-character strong,.quest-card p,.event-card p,.relation-card p{font-size:14px}
+.eyebrow,.brand small,.preview-badge,.rail-bottom,.map-heading p,.scene-badge,
+.map-quest small,.map-quest span span,.movement-hint,.small-button,
+.chat-heading .eyebrow,.chat-tabs span,.date-divider,.welcome-card button,
+.message-meta time,.message-tag,.message.system,.composer-modes button,
+.composer-modes>span,#chat-input,.local-note,.my-character small,.people-intro,
+.person-row small,.person-row .person-type,.dialog-top .eyebrow,.panel-subtitle,
+.section-label,.section-label span,.stat-cell label,.small-note,.history-item,
+.quest-card-header small,.event-eyebrow,.quest-status,.relation-kind,.text-button,
+.empty-state,.info-strip,.toast{font-size:12px}
+.chat-heading h2{font-size:18px}
+#chat-input{font-size:14px}
+.composer-modes>span{display:none}
+.chat-composer{padding-top:8px}
+.local-note{line-height:1.8}
+.message-meta{flex-wrap:wrap}
+.welcome-card p{line-height:1.85}
+.map-quest{max-width:325px}
+.map-heading p{margin-top:10px}
+.field textarea{line-height:1.85}
+.interaction{font-size:14px}
+@media(max-width:1150px){
+  .map-quest{max-width:300px}
+  .quest-bullet{display:none}
+  .chat-tabs{gap:18px}
+  .rail-button{font-size:12px}
+  .map-bottom .movement-hint>span:nth-child(2){font-size:0}
+  .map-bottom .movement-hint>span:nth-child(2):after{content:'눌러서 이동';font-size:12px}
+}
+@media(max-width:680px){
+  .brand small{font-size:12px;letter-spacing:0}
+  .preview-badge{display:none}
+  .rail-button{font-size:11px}
+  .rail-bottom{font-size:12px}
+  .map-heading h1{font-size:21px}
+  .map-quest{top:120px;max-width:calc(100% - 24px)}
+  .map-quest strong{font-size:12px}
+  .map-quest small,.map-quest span span{font-size:12px}
+  .quest-icon{display:none}
+  .scene-badge{font-size:12px}
+  .scene-badge .badge-divider,.scene-badge .badge-divider+span{display:none}
+  .chat-heading h2{font-size:18px}
+  .chat-tabs button{font-size:14px}
+  .chat-composer{padding-top:8px}
+  .composer-modes{gap:2px}
+  .composer-modes button{padding:5px 7px}
+  .message-meta time{font-size:12px}
+  .message-avatar{display:none}
+  .message-name,.message-text,.welcome-card p{font-size:14px}
+  .welcome-card strong{font-size:15px}
+  .local-note{font-size:12px}
+  .chat-panel{height:410px}
+  .workspace{grid-template-rows:minmax(460px,60dvh) 410px}
+  .chat-view{grid-template-columns:1fr 44%}
+  .person-row strong{font-size:14px}
+  .person-row small{font-size:12px}
+  .interaction{font-size:12px}
+}
